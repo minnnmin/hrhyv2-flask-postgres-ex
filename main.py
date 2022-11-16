@@ -13,6 +13,7 @@ app = Flask(__name__)
 
 CORS(app)
 
+
 # generate database schema
 Base.metadata.create_all(engine)
 
